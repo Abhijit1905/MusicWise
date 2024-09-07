@@ -1,0 +1,160 @@
+.pricingarea
+{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    top:99vh;
+    background-color: black;
+}
+.pricingbig
+{
+    position: absolute;
+    top: 16%;
+}
+.pricehead
+{
+    font-family: "Circular", sans-serif;
+    font-size: 60px;
+    font-weight: 650;
+    color: white;
+    margin: 0;
+}
+.pricebox
+{
+    position: relative;
+    width: 366px;
+    height: 457.5px;
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 67px 40px 60px ;
+    opacity: 0;
+}
+.contentprice
+{
+  height: 337px;
+}
+.pricingboxhead
+{
+    font-size: 35px;
+    color: #20FFC5;
+}
+.pricingboxsub
+{
+   color: white;
+   font-size: 23px;
+   font-family: "Circular", sans-serif;
+   text-align: left;
+   
+}
+
+.more
+{
+    font-family: "Circular", sans-serif;
+    color: black;
+    font-size: 12px;
+    position: relative;
+    z-index: 3;
+}
+
+.want
+{
+    width: 172px;
+    height: 42px;
+    background-color: #20FFC5;
+    border-radius: 100px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.arrowani
+{
+    white-space: nowrap;
+    position: relative;
+    left: -10px;
+}
+.glowsvg1
+{
+    position: relative;
+    top: -51.2%;
+    left: 10%;
+    z-index: 2;
+    filter:brightness(0) invert(0.2);
+}
+.glowsvg2
+{
+    position: relative;
+    top: -51.2%;
+    left: 30%;
+    z-index: 2;
+    filter:brightness(0) invert(0.2);
+}
+.glowsvg3
+{
+    position: relative;
+    top: -53.1%;
+    left: 30%;
+    z-index: 2;
+    filter:brightness(0) invert(0.2);
+}
+.pricebox1:hover .glowsvg1
+{
+    filter:brightness(1) ;
+    transition: filter 0.3s ease;
+}
+.pricebox1:hover
+{
+    background-color:#282828;
+    transition: all 0.3s ease;
+}
+.pricebox2:hover .glowsvg2
+{
+    filter:brightness(1) ;
+    transition: filter 0.3s ease;
+}
+.pricebox2:hover
+{
+    background-color:#282828;
+    transition: all 0.3s ease;
+}
+
+.pricebox3:hover .glowsvg3
+{
+    filter:brightness(1) ;
+    transition: filter 0.3s ease;
+}
+.pricebox3:hover
+{
+    background-color:#282828;
+    transition: all 0.3s ease;
+}
+.help
+{
+    width: 100%;
+    border: solid 2px #6B6B6B;
+    border-radius: 20px;
+    position: relative;
+    min-height: 161px;
+}
+.helptext
+{
+    font-family: "Circular", sans-serif;
+    font-size: 27px;
+    color: #6B6B6B;
+}
+.playlistsvg{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.want:hover{
+    width: 210px;
+    transition: all 0.3s ease;
+}
+.want:hover .top
+{
+   transform: translateX(10px);
+   transition: all 0.3s ease;
+}
+.want:hover .line
+{
+    transition: all 0.3s ease;
+}

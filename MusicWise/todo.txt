@@ -1,0 +1,5 @@
+all loding animation
+
+make navbar responsice right side fix
+
+if possible make waves

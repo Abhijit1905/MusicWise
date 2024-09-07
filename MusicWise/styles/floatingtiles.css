@@ -1,0 +1,156 @@
+.floatingtiles
+{
+    position: relative;
+}
+.tiles
+{
+    position: absolute;
+    z-index: 3;
+    top: -1vh;
+}
+.subhero{
+    position: absolute;
+    top: 28%;
+    width: 100%;
+}
+.subherotext
+{
+    max-width: 862px;
+    text-align: center;
+}
+.tilehead
+{
+    font-family: "Circular",sans-serif;
+    font-weight: 700;
+    font-size:55px;
+    color: white;
+    padding: 0;
+}
+.headspan
+{
+    font-family: "Circular",sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    color: #20FFC5;
+}
+.subtiles
+{
+    position: relative;
+    width: 80%;
+    height: 299px;
+}
+.box{
+    position: absolute;
+    border: 3px solid #6b6b6b;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transform-origin:left;
+    p{
+        font-size: 34px;
+        color: #6b6b6b;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+    }
+}
+.one{
+    left: 21.1312px;
+    top: 54.1487px;
+    width: 169.462px;
+    transform: rotate(6.32848deg) ;
+}
+
+.two{
+    left: 87.0282px;
+    top: 207.901px;
+    width: 211.675px;
+    transform: rotate(-20.2757deg) ;
+}
+.three{
+    left: 230.069px;
+    top: 37.9066px;
+    width: 179px;
+    transform: rotate(16.9587deg) ;
+}
+.four{
+    left: 454.042px;
+    top: 155.983px;
+    width: 173.119px;
+    transform: rotate(156.955deg) ;
+}
+.five{
+    left: 432.639px;
+    top: 5.24995px;
+    width: 315.651px;
+    transform: rotate(47.488deg) ;
+}
+.six{
+    left: 725.823px;
+    top: 59.534px;
+    width: 159.496px;
+    transform: rotate(-173.029deg);
+}
+.seven{
+    left: 668.824px;
+    top: 159.557px;
+    width: 211.675px;
+    transform: rotate(-22.3292deg);
+}
+.eight{
+    left: 754.611px;
+    top: 205.067px;
+    width: 211.675px;
+    transform: rotate(-1.38719deg);
+}
+.nine{
+    left: 894.045px;
+    top: 73.0274px;
+    width: 289.305px;
+    transform: rotate(30.0674deg);
+}
+.ten{
+    left: 1001.27px;
+    top: 45.7171px;
+    width: 250.389px;
+    transform: rotate( 9.77073deg);
+}
+.eleven{
+        left: 1191.26px;
+        top: 204.096px;
+        width: 181.462px;
+        transform: rotate( -20.7574deg);
+}
+.twelve{
+    left: 1268.07px;
+    top: 72.3076px;
+    width: 149.496px;
+    transform: rotate(-17.2859deg); 
+}
+
+.purple:hover .pp{
+    border: 3px solid #CAB2FF;
+    p{
+       color: #CAB2FF;  
+    }
+   
+}
+.white:hover .ww{
+    border: 3px solid white;
+    p{color: white;}
+    
+}
+.green:hover .yy{
+    border: 3px solid #20FFC5;
+    p{ color:#20FFC5;}
+   
+}
+.blue:hover .bb{
+    border: 3px solid #72E6FF;
+    p{
+        color: #72E6FF;
+    } 
+}

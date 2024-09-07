@@ -1,0 +1,626 @@
+html{
+    font-size: 16px;
+}
+
+
+#carouselExample .carousel-inner .carousel-item {
+    transition: transform 0.2s ease-in; /* Set the transition duration to 0s */
+}
+
+#carouselExample .carousel-control-prev,
+#carouselExample .carousel-control-next {
+    transition: none; /* Remove any transition effect on the control buttons */
+}
+
+.illustration {
+    position: relative;
+    width: 459px;
+    height: 283px;
+    overflow: hidden;
+}
+.icon {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    background-color: #1f1f1f;
+    z-index: 1;
+}
+.corner {
+    top: 222px;
+    left: 332px;
+    transform: rotateZ(-45deg);
+    
+}
+.illus-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.stroke {
+    stroke-dasharray: 8 8;
+    animation: dash 2s linear infinite;
+}
+@keyframes dash {
+    to { stroke-dashoffset: -160; }
+}
+
+.youtubehomepage
+{
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 46px 74px 30px 78px;
+    z-index: 4;
+}
+a{
+    font-family: "Circular",sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.wantit
+{
+    width: 176px;
+    height: 42px;
+    border-radius: 100px;
+    border: none;
+    background-color: #07f2b4;
+    font-size: 12px;
+}
+.vis
+{
+    font-size: 18px;
+}
+.upperlink
+{
+    position: relative;
+    font-family: "Circular",sans-serif;
+    font-size: 12px;
+    top:-6% !important;
+}
+.herocontent
+{
+    position: absolute;
+    top: 25%;
+    max-width:1124px;
+}
+.herotext{
+     max-width: 459px;
+}
+.heroheading
+{
+    font-family: "Circular",sans-serif;
+    font-size: 2.8125rem;
+    margin: 0;
+    color: #07f2b4;
+    font-weight: 900;
+    .upperlink
+    {
+        font-size: 1.625rem;
+        top:-0.9rem !important;
+        font-weight: 700;
+        padding-left: 0.5rem;
+    }
+}
+.herosubtext
+{
+    font-family: "Circular",sans-serif;
+    font-size: 2.3125rem;
+    margin: 0;
+    font-weight: 700;
+    line-height: 45px;
+    color: white;
+}
+.background
+{
+    position: absolute;
+    top:60%;
+    width: 100%; 
+    height: 40%;
+    background-image: url(../images/crowd2.jpg);
+    z-index: -2;
+    
+}
+.topgrad
+{
+    background: linear-gradient(110deg, #000000, #060606 30%, #303030);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    z-index: -2;
+}
+.bottomgrad
+{
+    background: radial-gradient(at top right, #303030, transparent, transparent);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: 0;
+    top:60%;
+}
+.leftbottomgrad
+{
+    background: radial-gradient(at top left, #060606, transparent, transparent);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: 0;
+    top:60%;
+}
+.noise
+{
+    position: absolute;
+    background-image: url(../images/noise.gif);
+    z-index: -1;
+    opacity: 0.045;
+    width: 100%;
+    height: 120vh;
+    top: 0;
+}
+
+.discription
+{
+    position: absolute;
+    max-width: 1124px;
+    top:59%;
+    padding: 70px 0 80px ;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: black;
+}
+.discriptiontext
+{
+    margin: 0 70px;
+    padding: 0 24px;
+    font-size: 2.75rem;
+    text-align: center;
+    line-height: 64px;
+}
+
+.white
+{
+    width: 100%;
+    height: 100%;
+    gap: 52px;
+}
+
+
+
+.price
+{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.pricehead1{
+    font-family: "Circular",sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+.upperhead
+{
+    font-family: "Circular",sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    padding-bottom: 8px;
+    color:#000000;
+    border-bottom:solid #000000 1.5px;
+}
+.views
+{
+    font-family: "Circular",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 50px 0 0 0;
+    color:#000000;
+}
+.bold
+{
+    font-family: "Circular",sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color:#000000;
+}
+.belowcost
+{
+    font-family: "Circular",sans-serif;
+    font-size: 16px;
+    padding:0 0 45px 0;
+    margin: 0;
+    color:#000000;
+}
+.cost{
+    font-family: "Circular",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px;
+    color:#000000;
+}
+.upperbox
+{
+   padding: 24px 16px 0; 
+   min-width: 206px;
+   border-radius:15px 15px 0 0;
+}
+.lowerbox
+{
+   min-width: 206px;
+   border-radius: 0 0 15px 15px;
+}
+.buy-now{
+    font-family: "Circular",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+.smallbox
+{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    top:80%;
+    left:-4%;
+    border-radius: 50%;
+}
+.smallbox1
+{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    top:80%;
+    border-radius: 50%;
+    right:-4%;
+}
+.strip
+{
+    position: absolute;
+    top:82%;
+    left:6%;
+    background-image: linear-gradient(to right, black 50%, transparent 0%);
+    width: 192px;
+    height: 3px;
+    background-size: 7%;
+}
+.popular
+{
+    position: absolute;
+    top:-5%;
+    left: 12%;
+    border-radius: 5px;
+    width: 159px;
+    height: 29px;
+    background-color: #000000;
+    p{
+        font-family: "Circular",sans-serif;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        letter-spacing: normal;
+        border: none; color: white;
+    }
+    img{
+        padding: 0 3px 3px 0;
+    }
+ 
+}
+.aqua
+{
+    background-color: #55ffec;
+}
+.green
+{
+    background-color: #20ffc5;
+}
+.purple
+{
+    background-color: #b2c8ff;
+}
+.pink{
+    background-color: #d5c2ff;
+}
+.pricehelp
+{
+    max-width: 888px;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px 0px #00000018;
+}
+.helptext1
+{
+    font-family: "Circular",sans-serif;
+    font-size: 22px;
+    color: white;
+    strong
+    {
+       font-weight: 900; 
+    }
+    padding: 32px 75px 0 75px;
+}
+.tryout
+{
+    width: 170px;
+    height: 42px;
+    border-radius: 100px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    margin: 0 0 32px 0;
+}
+.guarantee
+{
+    font-family: "Circular",sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+
+.howitwork{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+    gap:70px;
+}
+.left , .right{
+    position: absolute;
+}
+.howitworkhead
+{
+    font-family: "Circular",sans-serif;
+    font-size: 5rem;
+    line-height: 5.2rem;
+    color: black;
+    font-weight: 700;
+}
+.contents{
+    gap: 4.06rem;
+}
+.box2{
+   gap: 5.937rem;
+}
+.box1{
+    gap: 5.937rem;
+ }
+.contentbox{
+    max-width: 322px;
+}
+.contents img{
+    max-width: 151px;
+    max-height: 151px;
+}
+.contentboxhead
+{
+    font-family: "Circular",sans-serif;
+    font-size: 1.375rem;
+    color: #07F2B4;
+}
+.contentboxsub
+{
+    font-family: "Circular",sans-serif;
+    font-size: 1.125rem;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+}
+.datahead
+{
+    font-family: "Circular",sans-serif;
+    font-size: 4.325rem;
+    margin: 0;
+   
+}
+.dataheadspan
+{
+    font-family: "Circular",sans-serif;
+    font-size: 3.375rem;
+}
+.datasub
+{
+    font-family: "Circular",sans-serif;
+    font-size: 1.75rem;
+    color: #979797;
+    font-weight: 700;
+    padding-left: 40px;
+    
+}
+.data{
+    gap: 75px;
+    padding-top: 4.68rem;
+}
+.data1
+{
+    max-width: 250px;
+}
+.data2
+{
+    max-width: 150px;
+}
+.data3
+{
+    max-width: 150px;
+}
+.data4
+{
+    max-width: 150px;
+}
+
+
+.crouselpart
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+#carouselExample
+{
+    position: relative;
+    max-width: 998px;
+    height: max-content;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+    
+}
+.carouselbox img{
+    border-radius: 20px;
+    max-height: 557px;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+}
+.carouselbox
+{
+    border-radius: 20px;
+    border: solid 2px white;
+    position: relative;
+    z-index: 1;
+}
+.carouselcontent
+{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 2;
+}
+.carouselcontent h2{
+    font-family: "Circular",sans-serif;
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.carouselcontent p{
+    font-family: "Circular",sans-serif;
+    font-size: 3.25rem;
+    font-weight: 900;
+    margin: 0;
+}
+.stats p{
+    font-family: "Circular",sans-serif;
+    font-size: 1.325rem;
+    font-weight: 700;
+    color: #909090;
+    margin: 0;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+.gradiantbkg
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(to top, black, transparent 75%);
+    z-index:2;
+}
+.bkgcopy
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    left: -30px;
+    top: 30px;
+    background-color: #07f2b4;
+    z-index: 0;
+}
+.but{
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #585858;
+    opacity: 1;
+    transition: transform 0.5s ease;
+}
+
+.othersoln
+{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #000000;
+}
+footer
+{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 20vh;
+}
+footer p{
+    font-family: "Circular",sans-serif;
+    margin: 0;
+    color: #636265;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lowerbox {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.lowerbox .cost,
+.lowerbox .buy-now {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.lowerbox .cost {
+    transform: translateX(0);
+}
+
+.lowerbox .buy-now {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -55%);
+    white-space: nowrap;
+}
+
+.lowerbox:hover .cost {
+    transform: translateX(-200%);
+}
+
+.lowerbox:hover .buy-now {
+    transform: translate(-140%, -55%);
+}
+

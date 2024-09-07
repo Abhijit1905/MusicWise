@@ -1,0 +1,170 @@
+.reblack
+{
+    position: relative;
+    top:99vh;
+    height: 100vh;
+    background-color: white;
+}
+.reblackbig
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.outrotiles
+{
+    max-width: 945px;
+}
+.ghostbox
+{
+   border:solid 4px #cbcbcb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   width:77px;
+   opacity: 0;
+}
+.outrobox
+{
+   background-color: #cbcbcb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   width:77px;
+   opacity: 0;
+}
+.outroboxtext
+{
+    font-family:"Circular" , sans-serif;
+   font-size: 41px;
+   font-weight: 700;
+   padding: 0;
+   margin: 0;
+}
+.outro1
+{
+    width: 225.02px;
+}
+.outro2{
+    width:255.69px;
+}
+.outro3{
+    width:402.95px;
+}
+.outro4{
+    width:247.66px;
+}
+.outro5{
+    width:349.95px;
+}
+.outro6{
+    width:234.41px;
+}
+.outro7{
+    width:270.81px;
+}
+.outro8{
+    width:337.6px;
+}
+.outroheadingbox
+{
+    max-width: 945px;
+    text-align: center;
+    margin:100px 0 0 0;
+}
+.outroheadingwhite
+{
+    font-family:"Circular" , sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+.outroheadingpup
+{
+    font-family:"Circular" , sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #8d44ff;
+    position: relative;
+    top: 0 !important;
+}
+.outroheadingsub
+{
+    font-family:"Circular" , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding:0 30px;
+    color: #6b6b6b;
+}
+.outrocard
+{
+    position: relative;
+    top: 98vh;
+    height:90vh;
+    background-color: black;
+    width: 100%;
+}
+.contactus
+{
+    border:none;
+    background-color: #00e5a9;
+    width: 237.8px;
+    height: 58px;
+    border-radius: 100px;
+    font-family:"Circular" , sans-serif;
+    font-size: 16px;
+    position: relative;
+    z-index: 3;
+}
+.cardbig
+{
+    width: 1145px;
+    min-height: 550px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #000000 3%, #0f0f0f, #313131);
+    position: relative;
+    pointer-events: all;
+}
+.backnoise
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-image: url(/images/noise.gif);
+    opacity: 0.045;
+}
+.cardbig img{
+    position: absolute;
+    
+}
+.arrowthin{
+    z-index: 3;
+    left: 85%;
+    top: 15%;
+}
+.circle
+{
+    top: 10%;
+    left: 88%;
+    z-index: 2;
+}
+.triangle
+{
+    top: 70%;
+    left: 10%;
+}
+.trianglefill
+{
+    top:70%;
+    left:80%;
+}
+.footer{
+    position: relative;
+    top:98vh;
+    background-color: #0f0f0f;
+    color: white;
+}

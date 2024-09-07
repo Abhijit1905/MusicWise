@@ -1,0 +1,39 @@
+let t2=gsap.timeline({repeat:-1,yoyo:"true"});
+t2.to(
+    ".white",
+    {
+        y:"-15px",
+        ease:"power1.inOut",
+        duration:2,
+    }
+    
+)
+t2.to(
+    ".purple",
+    {
+        y:"-10px",
+        ease:"power1.inOut",
+        duration:1,
+        delay:0.1
+    },
+    0.25
+)
+t2.to(
+    ".blue",
+    {
+        y:"-15px",
+        ease:"power1.inOut",
+        duration:2,
+        delay:0.1
+    },
+    0.25
+)
+t2.to(
+    ".green",
+    {
+        y:"-10px",
+        ease:"power1.inOut",
+        duration:1, 
+    },
+    0.45 
+);
